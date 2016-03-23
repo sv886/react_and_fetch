@@ -26,7 +26,7 @@ var BritSpears = React.createClass({
   render(){
     return <div>
       {this.state.data.map(function(d){
-        return <img src={d.images.fixed_height.url}/>
+        return <img src={d.images.fixed_width_small.url}/>
      })}
     </div>;
   }
